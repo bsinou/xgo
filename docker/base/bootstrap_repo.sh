@@ -24,7 +24,7 @@ tar -C /usr/local -xzf `basename $BOOT_DIST`
 rm -f `basename $BOOT_DIST`
 mv $GOROOT $GOROOT_BOOTSTRAP
 
-# Download, build and install the requesed Go sources
+# Download, build and install the requested Go sources
 (cd /usr/local && git clone https://go.googlesource.com/go)
 (cd $GOROOT && git checkout $1)
 (cd $GOROOT/src && ./make.bash)
