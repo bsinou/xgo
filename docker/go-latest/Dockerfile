@@ -3,6 +3,6 @@
 #
 # Released under the MIT license.
 
-FROM karalabe/xgo-1.15.x
+FROM pydio/xgo:1.15.x
 
-MAINTAINER Péter Szilágyi <peterke@gmail.com>
+LABEL maintainer="Pydio Team <team@pydio.com>"

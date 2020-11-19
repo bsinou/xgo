@@ -3,11 +3,8 @@
 #
 # Released under the MIT license.
 
-FROM karalabe/xgo-base
-
-MAINTAINER Péter Szilágyi <peterke@gmail.com>
-
-# Configure the root Go distribution and bootstrap based on it
+FROM pydio/xgo:base
+LABEL maintainer="Pydio Team <team@pydio.com>"
 ENV GO_VERSION 11505
 
 RUN \
